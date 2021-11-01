@@ -1,5 +1,5 @@
 <template>
-  <BookContainer/>
+  <Tutorial/>
 </template>
 
 <script>
