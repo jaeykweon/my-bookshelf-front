@@ -1,24 +1,30 @@
 <template>
-    <section class="lg:px-20 md:px-10 px-2 min-w-full flex justify-center ">
-        <!-- <div class="  px-5 flex-row  items-center text-center ">  -->
-            <ul class="sm:w-144 inline-flex flex-wrap justify-center">
-                <nuxt-link :to="{
-					path: '/detail',
-				}">
-                    <li class="sm:w-64 w-40 text-center">
-                        <img src="http://image.kyobobook.co.kr/images/book/xlarge/727/x9788960883727.jpg"/>
-                    </li>
-                </nuxt-link>
-                <li class="sm:w-64 w-40 text-center">
-                    책 내용 2
+    <section class="lg:px-20 md:px-10 px-5z min-w-full flex justify-center ">
+
+            <ul class="sm:w-144 inline-flex flex-wrap justify-items-center justify-between">
+                
+                <li v-for="book in books" :key="book.id" class="sm:w-64 w-40 px-2 py-2 text-center" >
+                    <nuxt-link :to="{path: '/detail'}">
+                        <img :src="book.img_src" />
+                    </nuxt-link>
                 </li>
-                <li class="sm:w-64 w-40 text-center">
-                    책 내용 3
-                </li>
-                <li class="sm:w-64 w-40 text-center">
-                    책 내용 4
-                </li>
+                
             </ul>
-        <!-- </div> -->
+
     </section>
 </template>
+
+
+<script>
+
+import bookData from 'static/.test/books.json';
+
+export default {
+    name: 'App',
+    data(){
+        return {
+            books : bookData
+        }
+    }
+}
+</script>
