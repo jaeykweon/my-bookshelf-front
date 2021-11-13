@@ -3,6 +3,13 @@ const colors  = require('tailwindcss/colors')
 
 module.exports = {
   theme: {
+    screens: {
+      'sm': '640px',  // => @media (min-width: 640px) { ... }
+      'md': '768px',
+      'lg': '1081px',
+      'xl': '1280px',
+      '2xl': '1536px'
+    },
     colors: {
       gray: colors.coolGray,
       blue: colors.lightBlue,

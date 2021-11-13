@@ -29,10 +29,10 @@
             </ul>
     </section> -->
 
-    <section class="lg:px-20 md:px-10 px-2 min-w-full flex justify-center ">
-            <ul class="sm:w-144 min-w-full border-b-2 inline-flex flex-wrap justify-items-center justify-center">
-                <div class="w-full px-2 border-l-2 border-r-2 m-auto inline justify-around">
-                    <li v-for="book in sortedBooks" :key="book.id" class="sm:w-64 w-36 py-3 mx-2 inline-block" >
+    <section class="lg:px-20 md:px-10 px-2 min-w-full justify-center ">
+            <ul class="sm:w-144 min-w-full border-b-2 flex flex-wrap justify-items-center justify-center">
+                <div class="w-full px-2 border-l-2 border-r-2 m-auto grid justify-items-center xl:grid-cols-6 lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2">
+                    <li v-for="book in sortedBooks" :key="book.id" class="sm:w-44 w-36 py-3 mx-2 inline-grid text-center justify-center" >
                         <div class="text-left inline-block">
                             <!-- https://web2tailwind.com/component/badge -->
                             <span v-if="book.state.new" class="inline-block bg-blue-600 text-gray-200 text-xs px-2 py-1 rounded-full">신규</span>
