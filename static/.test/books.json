@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "name": "퍼스트클래스 승객은 펜을 빌리지 않는다",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/673/l9788927804673.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/673/l9788927804673.jpg",
         "category":{
             "main":"자기계발",
             "sub": ""
@@ -16,7 +16,7 @@
     {
         "id" : 2,
         "name": "오늘도 개발자가 안 된다고 말했다",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/727/l9788960883727.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/727/l9788960883727.jpg",
         "category":{
             "main":"컴퓨터/IT",
             "sub": ""
@@ -30,7 +30,7 @@
     {
         "id" : 3,
         "name": "당신의 생각을 정리해드립니다",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/040/l9791162542040.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/040/l9791162542040.jpg",
         "category":{
             "main":"자기계발",
             "sub": ""
@@ -44,7 +44,7 @@
     {
         "id" : 4,
         "name": "나는 주니어 개발자다",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/882/l9788997924882.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/882/l9788997924882.jpg",
         "category":{
             "main":"컴퓨터/IT",
             "sub": ""
@@ -58,7 +58,7 @@
     {
         "id" : 5,
         "name": "좋아 보이는 것들의 비밀",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/112/l9791186560112.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/112/l9791186560112.jpg",
         "category":{
             "main":"경제/경영",
             "sub": ""
@@ -72,7 +72,7 @@
     {
         "id" : 6,
         "name": "플랫폼 경제와 공짜 점심",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/198/l9791158741198.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/198/l9791158741198.jpg",
         "category":{
             "main":"경제/경영",
             "sub": ""
@@ -86,7 +86,7 @@
     {
         "id" : 7,
         "name": "아들아, 돈 공부해야 한다",
-        "img_src": "http://simage.kyobobook.co.kr/images/book/large/902/l9788925588902.jpg",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/902/l9788925588902.jpg",
         "category":{
             "main":"경제/경영",
             "sub": ""
@@ -96,5 +96,119 @@
             "on_air" : false,
             "finished" : false
         }
-    }    
+    },
+    {
+        "id" : 8,
+        "name": "코틀린으로 쇼핑몰 앱 만들기",
+        "img_src": "http://simage.kyobobook.co.kr/images/book/large/661/l9791161340661.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "state": {
+            "new" : true,
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 9,
+        "name": "Node.js 교과서",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/308/l9791165212308.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "state": {
+            "new" : true,
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 10,
+        "name": "완벽한 IT 인프라 구축을 위한 Docker",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/903/l9788956747903.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "state": {
+            "new" : true,
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 11,
+        "name": "풀스택 서버리스",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/487/l9791162244487.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "state": {
+            "new" : true,
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 12,
+        "name": "서비스 운영이 쉬워지는 AWS 인프라 구축 가이드",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/317/l9791158391317.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "state": {
+            "new" : true,
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 13,
+        "name": "머신 러닝을 다루는 기술 with 파이썬, 사이킷런",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/018/l9791165212018.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "state": {
+            "new" : true,
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 14,
+        "name": "죽을 때까지 코딩하며 사는 법",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/820/l9788997924820.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "published_date" : "2018-02-28",
+        "created_date": "2021-11-12",
+        "state": {
+            "on_air" : false,
+            "finished" : false
+        }
+    },
+    {
+        "id" : 15,
+        "name": "실전 예제로 배우는 AWS Lambda",
+        "img_src": "http://image.kyobobook.co.kr/images/book/large/207/l9791161751207.jpg",
+        "category":{
+            "main":"컴퓨터/IT",
+            "sub": ""
+        },
+        "published_date" : "2018-02-28",
+        "created_date": "2021-11-12",
+        "state": {
+            "on_air" : false,
+            "finished" : false
+        }
+    }
 ]
