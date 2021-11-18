@@ -3,6 +3,14 @@ const colors  = require('tailwindcss/colors')
 
 module.exports = {
   theme: {
+    minHeight: {
+      '0': '0',
+      '1/10': '10%',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
+     },
     screens: {
       'sm': '640px',  // => @media (min-width: 640px) { ... }
       'md': '768px',
@@ -11,6 +19,7 @@ module.exports = {
       '2xl': '1536px'
     },
     colors: {
+      white: colors.white,
       gray: colors.coolGray,
       blue: colors.lightBlue,
       red: colors.rose,
@@ -45,6 +54,7 @@ module.exports = {
       '8': '8px',
     },
     extend: {
+      textColor: ['active'],
       spacing: {
         '128': '32rem',
         '144': '36rem',
